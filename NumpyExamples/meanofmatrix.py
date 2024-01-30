@@ -8,6 +8,6 @@ from numpy import random
 arr=random.randint(1,100,size=(5,5),dtype='int')
 print(arr)
 #mean means addition of all the eelement of matrix /no of elemnets 
-print(np.mean(arr))
+print("Mean is : ",np.mean(arr))
 #avg of : standard devation is squares of all the numbers-mean 
-print(np.std(arr))
+print("standard devation is ",np.std(arr))
